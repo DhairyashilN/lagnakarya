@@ -1,0 +1,40 @@
+body {
+	font-family: open sans;
+}
+
+#contact .container {
+	border: 1px solid #ccc;;
+}
+
+#contact h3 {
+	font-weight: bold;
+	font-size: 22px;
+}
+
+#contact .personal-detail {
+	background-color: #4D3672;
+	color: #fff;
+	padding: 13px;
+	font-weight: bold;
+	font-size: 16px;
+	border-radius: 2px;
+}
+
+#personal-form {
+	margin-top: 15px;
+}
+
+#personal-form .label-text {
+	padding-top: 7px;
+	text-align: right;
+}
+
+/******* Bootstrap css changes*********/
+.form-control {
+    border-radius:0px;
+    }
+.form-control:focus {
+    border-color: #888;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    outline: 0 none;
+}
